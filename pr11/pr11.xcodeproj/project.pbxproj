@@ -14,6 +14,9 @@
 		3D57BDAC1D75CE450076DF38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D57BDAA1D75CE450076DF38 /* LaunchScreen.storyboard */; };
 		3D57BDB71D75CE450076DF38 /* pr11Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D57BDB61D75CE450076DF38 /* pr11Tests.m */; };
 		3D57BDC21D75CE450076DF38 /* pr11UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D57BDC11D75CE450076DF38 /* pr11UITests.m */; };
+		3D9577111D76C1DC004CF6B4 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9577101D76C1DC004CF6B4 /* Person.m */; };
+		3D9577141D76C22D004CF6B4 /* addViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9577131D76C22D004CF6B4 /* addViewController.m */; };
+		3D95771A1D76C326004CF6B4 /* mainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9577191D76C326004CF6B4 /* mainTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,12 @@
 		3D57BDBD1D75CE450076DF38 /* pr11UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pr11UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D57BDC11D75CE450076DF38 /* pr11UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pr11UITests.m; sourceTree = "<group>"; };
 		3D57BDC31D75CE450076DF38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D95770F1D76C1DC004CF6B4 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person.h; path = ../Person.h; sourceTree = "<group>"; };
+		3D9577101D76C1DC004CF6B4 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = ../Person.m; sourceTree = "<group>"; };
+		3D9577121D76C22D004CF6B4 /* addViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addViewController.h; sourceTree = "<group>"; };
+		3D9577131D76C22D004CF6B4 /* addViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addViewController.m; sourceTree = "<group>"; };
+		3D9577181D76C326004CF6B4 /* mainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mainTableViewController.h; path = ../mainTableViewController.h; sourceTree = "<group>"; };
+		3D9577191D76C326004CF6B4 /* mainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = mainTableViewController.m; path = ../mainTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +107,12 @@
 		3D57BD9B1D75CE450076DF38 /* pr11 */ = {
 			isa = PBXGroup;
 			children = (
+				3D95770F1D76C1DC004CF6B4 /* Person.h */,
+				3D9577101D76C1DC004CF6B4 /* Person.m */,
+				3D9577181D76C326004CF6B4 /* mainTableViewController.h */,
+				3D9577191D76C326004CF6B4 /* mainTableViewController.m */,
+				3D9577121D76C22D004CF6B4 /* addViewController.h */,
+				3D9577131D76C22D004CF6B4 /* addViewController.m */,
 				3D57BD9F1D75CE450076DF38 /* AppDelegate.h */,
 				3D57BDA01D75CE450076DF38 /* AppDelegate.m */,
 				3D57BDA51D75CE450076DF38 /* Main.storyboard */,
@@ -265,8 +280,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D9577111D76C1DC004CF6B4 /* Person.m in Sources */,
 				3D57BDA11D75CE450076DF38 /* AppDelegate.m in Sources */,
+				3D9577141D76C22D004CF6B4 /* addViewController.m in Sources */,
 				3D57BD9E1D75CE450076DF38 /* main.m in Sources */,
+				3D95771A1D76C326004CF6B4 /* mainTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,6 +510,7 @@
 				3D57BDC81D75CE450076DF38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D57BDC91D75CE450076DF38 /* Build configuration list for PBXNativeTarget "pr11Tests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +519,7 @@
 				3D57BDCB1D75CE450076DF38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D57BDCC1D75CE450076DF38 /* Build configuration list for PBXNativeTarget "pr11UITests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +528,7 @@
 				3D57BDCE1D75CE450076DF38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
