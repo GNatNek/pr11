@@ -2,7 +2,7 @@
 //  mainTableViewController.m
 //  pr11
 //
-//  Created by Hartawan Effendy on 8/31/16.
+//  Created by Hartawan Effendy on 9/19/16.
 //  Copyright © 2016 Hartawan Effendy. All rights reserved.
 //
 
@@ -51,9 +51,7 @@
     }
 
     Person* kontek = [Contacts objectAtIndex:indexPath.row];
-    cell.textLabel.text = kontek.firstName;
-    // Configure the cell...
-    
+    cell.textLabel.text = kontek.first;
     return cell;
 }
 
@@ -103,7 +101,6 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     if ([       [segue identifier] isEqualToString:@"addSegue"])
     {
-    
         addViewController *vc = [segue destinationViewController];
         vc.delegate = self;
     }

@@ -2,7 +2,7 @@
 //  addViewController.m
 //  pr11
 //
-//  Created by Hartawan Effendy on 8/31/16.
+//  Created by Hartawan Effendy on 9/19/16.
 //  Copyright © 2016 Hartawan Effendy. All rights reserved.
 //
 
@@ -43,12 +43,12 @@
 
 - (IBAction)saveContact:(id)sender {
     
-    Person* org = [[Person alloc] init];
-    org.firstName = self.namaDepanTxt.text;
-    org.lastName = self.namaBlkTxt.text;
-    org.phone = self.telpTxt.text;
-    org.address = self.alamatTxt.text;
-    [self.delegate contactDidSaved:org];
+    Person* orang = [[Person alloc] init];
+    orang.first = self.namaDpnTxt.text;
+    orang.last = self.namaBlkgTxt.text;
+    orang.phone = self.telTxt.text;
+    orang.address = self.alamatTxt.text;
+    [self.delegate contactDidSaved:orang];
     [self.navigationController popViewControllerAnimated:YES];
 }
 @end

@@ -2,7 +2,7 @@
 //  addViewController.h
 //  pr11
 //
-//  Created by Hartawan Effendy on 8/31/16.
+//  Created by Hartawan Effendy on 9/19/16.
 //  Copyright © 2016 Hartawan Effendy. All rights reserved.
 //
 
@@ -14,9 +14,9 @@
 
 
 @interface addViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UITextField *namaDepanTxt;
-@property (weak, nonatomic) IBOutlet UITextField *namaBlkTxt;
-@property (weak, nonatomic) IBOutlet UITextField *telpTxt;
+@property (weak, nonatomic) IBOutlet UITextField *namaDpnTxt;
+@property (weak, nonatomic) IBOutlet UITextField *namaBlkgTxt;
+@property (weak, nonatomic) IBOutlet UITextField *telTxt;
 @property (weak, nonatomic) IBOutlet UITextField *alamatTxt;
 @property (weak, nonatomic) IBOutlet UIButton *saveBtn;
 @property (nonatomic, weak) id<addContactDelegate> delegate;
